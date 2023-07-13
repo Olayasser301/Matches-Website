@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2> Fans</h2>
+
+<a href="/Fans/Register">Register</a>
+
+
+
+
+<table class="table">
+    <thead>
+        <th>id</th>
+        <th>Name</th>
+        <th>username</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var fan in Model.Fans)
+        {
+            <tr>
+                <td>@fan.nationalId</td>
+                <td>@fan.name</td>
+                <td>@fan.username</td>
+                <td><a href="/Systemadmin/Edit?id=@fan.nationalId">Edit</a></td>
+                <td><a href="/Systemadmin/Delete?id=@fan.nationalId">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

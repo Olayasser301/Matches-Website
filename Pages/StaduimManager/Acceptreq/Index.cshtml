@@ -1,0 +1,20 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>Do you want to accept?</h2> 
+
+<form method="post">
+    <label>Guest name</label>
+    <input type="text" name="C1.Club_name"/>
+    <label>Hostname</label>
+    <input type="text" name="C2.Club_name"/>
+    <label> Start time</label>
+    <input type="text" name="start_time"/>
+    <label>End time</label>
+    <input type="text" name="end_time"/>
+    <input type="submit">
+</form>
+

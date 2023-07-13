@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2> SportsAssociationManager</h2>
+
+<a href="/SportsAssociationManager/Register"> Register</a>
+<a href="/Clubs/clubsNeverMatchedd"> View clubsNeverMatched</a>
+<a href="/Matchs/New"> Add Match </a>
+<a href="/Matchs/Delete"> Delete Match </a>
+<a href="/Matchs/View"> View All matches </a>
+<a href="/Matchs/viewalreadyplayed"> View Matches already played </a>
+
+
+
+
+
+<table class="table">
+    <thead>
+        <th>id</th>
+        <th>Name</th>
+        <th>username</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var SportsAssociationManager in Model.sports_Assosciation_Managers)
+        {
+            <tr>
+                <td>@SportsAssociationManager.id</td>
+                <td>@SportsAssociationManager.name</td>
+                <td>@SportsAssociationManager.username</td>
+                <td><a href="/Systemadmin/Edit?id=@SportsAssociationManager.id">Edit</a></td>
+                <td><a href="/Systemadmin/Delete?id=@SportsAssociationManager.id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

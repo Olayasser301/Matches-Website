@@ -1,0 +1,21 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Edit page";
+}
+
+<h2>Do you really want to delete this Match?</h2> 
+
+<form method="post">
+    <label>Host name</label>
+    <input type="text" name="Club_name"/>
+    <label>Guest name</label>
+    <input type="text" name="C1.Club_name"/>
+    <label>Hostname</label>
+    <input type="text" name="C2.Club_name"/>
+    <label> Start time</label>
+    <input type="text" name="start_time"/>
+    <label>End time</label>
+    <input type="text" name="end_time"/>
+    <input type="submit">
+</form>

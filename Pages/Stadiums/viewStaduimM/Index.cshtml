@@ -1,0 +1,36 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2>Availiable  Staduims</h2>
+
+
+
+
+<table class="table">
+    <thead>
+        <th>Name</th>
+        <th>id</th>
+        <th>Location</th>
+        <th>Capacity</th>
+        <th>Status</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var Staduim in Model.stadiums)
+        {
+            <tr>
+                <td>@Staduim.Staduim_name</td>
+                <td>@Staduim.id</td>
+                <td>@Staduim.Locations</td>
+                <td>@Staduim.Capacity</td>
+                <td>@Staduim.Statuss</td>
+                <td><a href="/Club/Edit?id=@Staduim.id">Edit</a></td>
+                <td><a href="/Club/Delete?id=@Staduim.id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

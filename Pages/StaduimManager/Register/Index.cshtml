@@ -1,0 +1,27 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>Register here!</h2> 
+
+<form method="post">
+   
+
+    <label>Name</label>
+    <input type="text" name="SAM_name"/>
+    <label>Username</label>
+    <input type="text" name="username"/>
+    <label>Password</label>
+    <input type ="text "name = "Passwords">
+    <label for="cars">Choose a car:</label>
+    <select name="stadium_id">
+        @foreach (var stadium in Model.stadiums)
+        {
+            <option value="@stadium.id">@stadium.Staduim_name</option>
+        }
+    </select>
+    <input type="submit">
+</form>
+

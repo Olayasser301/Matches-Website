@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2> SportsAssociationManager</h2>
+
+<a href="/StaduimManager/Register"> Register</a>
+
+<a href="/Stadiums/viewStaduimM"> View Staduim</a>
+
+
+
+<table class="table">
+    <thead>
+        <th>id</th>
+        <th>Name</th>
+        <th>username</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var StaduimM in Model.Staduim_managers)
+        {
+            <tr>
+                <td>@StaduimM.id</td>
+                <td>@StaduimM.name</td>
+                <td>@StaduimM.username</td>
+                <td>@StaduimM.Staduim_id</td>
+                <td><a href="/Systemadmin/Edit?id=@StaduimM.id">Edit</a></td>
+                <td><a href="/Systemadmin/Delete?id=@StaduimM.id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

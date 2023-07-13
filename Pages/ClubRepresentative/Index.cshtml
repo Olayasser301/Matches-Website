@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2>System admin</h2>
+
+<a href="/ClubRepresentative/Register"> Register</a>
+<a href="/Clubs/view">View Club</a>
+<a href="Stadiums/viewallavailiablestad"> View Availiable Stadiums</a>
+
+
+
+
+<table class="table">
+    <thead>
+        <th>id</th>
+        <th>Name</th>
+        <th>username</th>
+        <th>Club Name</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var Clubrep in Model.Club_Representatives)
+        {
+            <tr>
+                <td>@Clubrep.id</td>
+                <td>@Clubrep.name</td>
+                <td>@Clubrep.username</td>
+                <td>@Clubrep.club_id</td>
+                <td><a href="/Systemadmin/Edit?id=@Clubrep.id">Edit</a></td>
+                <td><a href="/Systemadmin/Delete?id=@Clubrep.id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

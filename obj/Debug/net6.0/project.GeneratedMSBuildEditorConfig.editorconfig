@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = project
+build_property.RootNamespace = project
+build_property.ProjectDir = /home/work/Desktop/project/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/work/Desktop/project
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/work/Desktop/project/Pages/ClubRepresentative/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJlcHJlc2VudGF0aXZlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/ClubRepresentative/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJlcHJlc2VudGF0aXZlL1JlZ2lzdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Clubs/clubsNeverMatchedd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YnMvY2x1YnNOZXZlck1hdGNoZWRkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Clubs/Delete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YnMvRGVsZXRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Clubs/New/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YnMvTmV3L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Clubs/view/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YnMvdmlldy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Fans/bLock/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFucy9iTG9jay9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Fans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFucy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Fans/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFucy9SZWdpc3Rlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Matchs/Delete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWF0Y2hzL0RlbGV0ZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Matchs/New/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWF0Y2hzL05ldy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Matchs/View/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWF0Y2hzL1ZpZXcvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/SportsAssociationManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/SportsAssociationManager/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL1JlZ2lzdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Stadiums/Delete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZGl1bXMvRGVsZXRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Stadiums/New/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZGl1bXMvTmV3L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Stadiums/viewallavailiablestad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZGl1bXMvdmlld2FsbGF2YWlsaWFibGVzdGFkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Stadiums/viewStaduimM/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZGl1bXMvdmlld1N0YWR1aW1NL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/StaduimManager/Acceptreq/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZHVpbU1hbmFnZXIvQWNjZXB0cmVxL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/StaduimManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZHVpbU1hbmFnZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/StaduimManager/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZHVpbU1hbmFnZXIvUmVnaXN0ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/SystemAdmins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3lzdGVtQWRtaW5zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/work/Desktop/project/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-42c5pjks4y
